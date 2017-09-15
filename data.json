@@ -1,0 +1,32 @@
+[
+    {
+	"model": "personalshopper.User",
+	"pk": 1,
+	"fields": {
+	    "email": "John@gmail.com",
+	    "password": "password1",
+	    "country": "United States",
+	    "username": "JohnL"
+	}
+    },
+    {
+	"model": "personalshopper.User",
+	"pk": 2,
+	"fields": {
+	    "email": "dankramp@yahoo.com",
+	    "password": "password2",
+	    "country": "Germany",
+	    "username": "dankramp"
+	}
+    },
+    {
+	"model": "personalshopper.Item",
+	"pk": 1,
+	"fields": {
+	    "price": 45.00,
+	    "name": "Toaster",
+	    "country": "United States",
+	    "description": "Toasts bagels and bread, America style."
+	}
+    }
+]
