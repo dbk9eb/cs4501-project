@@ -17,9 +17,3 @@ class Item(models.Model):
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=500)
     country = models.CharField(max_length=100, default="US")
-
-class Address(models.Model):
-    user = models.ForeignKey(User)
-    street = models.CharField(max_length=50)
-    state = models.CharField(max_length=50)
-    zip_code = models.IntegerField()
