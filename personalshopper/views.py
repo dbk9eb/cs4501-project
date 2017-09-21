@@ -116,7 +116,7 @@ def create_item(request):
     item = Item(price = 0, name="", description="", country="")
     for key in request.POST:
         try:
-            user._meta.get_field(key)
+            item._meta.get_field(key)
         except FieldDoesNotExist:
             return HttpResponse("Field '" + key + "' not in Item. No object created.")
         else:
